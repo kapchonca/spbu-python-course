@@ -46,6 +46,10 @@ jobs:
           python -m pip install -r requirements.txt
           python -m pip list
 
+      - name: Run mypy
+        run: |
+          mypy your_project_directory
+
       # Install pre-commit from .pre-commit-config.yaml
       - name: Install pre-commit
         run: |
