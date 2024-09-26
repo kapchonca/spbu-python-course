@@ -1,5 +1,6 @@
 import pytest
-from project.matrices import Vector, Matrix
+from project.matrices_vectors.matrix import Matrix
+from project.matrices_vectors.vector import Vector
 
 
 # Test Vector Class
