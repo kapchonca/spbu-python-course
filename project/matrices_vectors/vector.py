@@ -49,12 +49,12 @@ class Vector:
     @staticmethod
     def angle_between(v1: "Vector", v2: "Vector") -> float:
         """
-        Returns the angle in radians between two vectors.
+        Returns the angle between two vectors.
         """
         if v1.length() == 0 or v2.length() == 0:
             raise ValueError("Cannot compute angle with zero-length vector")
         cos_theta = Vector.dot(v1, v2) / (v1.length() * v2.length())
-        return math.acos(cos_theta)
+        return math.degrees(math.acos(cos_theta))
 
     def __repr__(self) -> str:
         """

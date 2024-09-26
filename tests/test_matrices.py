@@ -35,7 +35,7 @@ def test_vector_angle_between():
     v1 = Vector([1, 0])
     v2 = Vector([0, 1])
     result = Vector.angle_between(v1, v2)
-    assert pytest.approx(result, 0.01) == 1.5708  # approx π/2 radians (90 degrees)
+    assert pytest.approx(result, 0.01) == 90  # approx π/2 radians (90 degrees)
 
 
 # Test Matrix Class
