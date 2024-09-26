@@ -76,3 +76,25 @@ class Matrix:
         Returns a string representation of the matrix.
         """
         return f"Matrix({self.values})"
+
+    def matrix_multiply(self, other: "Matrix") -> "Matrix":
+        """
+        Multiplies two matrices.
+        """
+        if self.cols != other.rows:
+            raise ValueError(
+                "Number of columns in the first matrix must equal the number of rows in the second matrix"
+            )
+
+        # Matrix multiplication logic
+        return Matrix(
+            [
+                [
+                    sum(
+                        self.values[i][k] * other.values[k][j] for k in range(self.cols)
+                    )
+                    for j in range(other.cols)
+                ]
+                for i in range(self.rows)
+            ]
+        )
