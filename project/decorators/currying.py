@@ -20,6 +20,8 @@ def curry_explicit(function: Callable, arity: int) -> Callable:
         ValueError: If the arity is a negative number.
         TypeError: If too many arguments are supplied.
     """
+    if arity == 0:
+        return function
     if arity < 0:
         raise ValueError("Arity must be a non-negative integer")
 
