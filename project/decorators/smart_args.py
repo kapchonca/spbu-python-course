@@ -55,6 +55,8 @@ def smart_args(function: Callable[..., Any]) -> Callable[..., Any]:
         The wrapped function with smart argument processing.
     """
 
+    sign = signature(function)
+
     def wrapper(**kwargs: Any) -> Any:
         """
         Processes the arguments of the wrapped function, ensuring deep copying
@@ -69,7 +71,6 @@ def smart_args(function: Callable[..., Any]) -> Callable[..., Any]:
         Returns:
             The result of the wrapped function.
         """
-        sign = signature(function)
 
         for key, value in sign.parameters.items():
             if isinstance(value.default, Isolated):
