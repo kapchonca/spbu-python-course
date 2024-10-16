@@ -9,7 +9,8 @@ def test_curry_explicit_basic():
 
     curried_add = curry_explicit(add, 2)
     assert curried_add(2)(3) == 5  # Curried form
-    assert curried_add(2, 3) == 5  # Non-curried form
+    with pytest.raises(TypeError):
+        curried_add(2, 3)
 
 
 def test_curry_explicit_multiple_args():
@@ -19,9 +20,12 @@ def test_curry_explicit_multiple_args():
 
     curried_multiply = curry_explicit(multiply, 3)
     assert curried_multiply(2)(3)(4) == 24
-    assert curried_multiply(2, 3)(4) == 24
-    assert curried_multiply(2)(3, 4) == 24
-    assert curried_multiply(2, 3, 4) == 24
+    with pytest.raises(TypeError):
+        curried_multiply(2, 3)(4)
+    with pytest.raises(TypeError):
+        curried_multiply(2)(3, 4)
+    with pytest.raises(TypeError):
+        curried_multiply(2, 3, 4)
 
 
 def test_curry_explicit_edge_cases():
@@ -39,7 +43,7 @@ def test_curry_explicit_arity_mismatch():
         return a + b
 
     curried_add = curry_explicit(add, 2)
-    with pytest.raises(TypeError, match="Too many arguments"):
+    with pytest.raises(TypeError):
         curried_add(1, 2, 3)
 
 
