@@ -1,4 +1,4 @@
-from typing import Callable, Any
+from typing import Callable, Any, Tuple
 
 
 def curry_explicit(function: Callable, arity: int) -> Callable:
@@ -23,17 +23,13 @@ def curry_explicit(function: Callable, arity: int) -> Callable:
     if arity < 0:
         raise ValueError("Arity must be a non-negative integer")
 
-    def inner_curry(*args: Any) -> Any:
-        if len(args) > arity:
-            raise TypeError(
-                f"Too many arguments: expected {arity}, but got {len(args)}"
-            )
-
+    def inner_curry(args: Tuple[Any, ...]) -> Callable:
         if len(args) == arity:
             return function(*args)
-        return lambda *args2: inner_curry(*(args + args2))
+        else:
+            return lambda arg: inner_curry(args + (arg,))
 
-    return inner_curry
+    return inner_curry(())
 
 
 def uncurry_explicit(function: Callable, arity: int) -> Callable:
