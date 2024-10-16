@@ -49,7 +49,7 @@ def cache(max_size: int = 0) -> Callable[[Callable], Callable]:
                 Any: The result of the function (either from the cache or freshly computed).
             """
             cache_key: Tuple[Tuple[Any, ...], frozenset] = (
-                args,
+                str(args),
                 frozenset(kwargs.items()),
             )
 
