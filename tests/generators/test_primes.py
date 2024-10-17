@@ -15,20 +15,26 @@ def test_prime_generator(count, expected_primes):
     assert primes == expected_primes
 
 
+@return_kth_prime()
+def decorated_prime_generator():
+    return prime_generator()
+
+
 @pytest.mark.parametrize(
     "k,expected",
     [
         (1, 2),
         (5, 11),
         (100, 541),
+        (99, ValueError),
     ],
 )
 def test_kth_prime(k, expected):
-    @return_kth_prime(k)
-    def decorated_prime_generator():
-        return prime_generator()
-
-    assert decorated_prime_generator() == expected
+    if isinstance(expected, type) and issubclass(expected, Exception):
+        with pytest.raises(expected):
+            decorated_prime_generator(k)
+    else:
+        assert decorated_prime_generator(k) == expected
 
 
 @pytest.mark.parametrize(
