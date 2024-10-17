@@ -54,3 +54,15 @@ def test_curry_explicit_negative_arity():
 
     with pytest.raises(ValueError, match="non-negative integer"):
         curry_explicit(dummy, -1)
+
+
+def test_arbitrary_arity_function():
+    # Test that functions with arbitrary arity are frozen at the specified arity.
+    curried_max = curry_explicit(max, 3)
+
+    with pytest.raises(TypeError):
+        curried = curry_explicit(max, 3)
+        curried(5)(1)(10)(15)
+
+    result = curried_max(5)(1)(10)
+    assert result == 10
