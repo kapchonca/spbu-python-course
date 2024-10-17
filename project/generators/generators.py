@@ -1,4 +1,4 @@
-from typing import Generator, Tuple
+from typing import Generator, Tuple, Optional, Callable
 
 
 def get_rgba_gen() -> Generator[Tuple[int, int, int, int], None, None]:
@@ -83,7 +83,9 @@ def prime_generator() -> Generator[int, None, None]:
         num += 1
 
 
-def return_kth_prime():
+def return_kth_prime() -> (
+    Callable[[Callable[[], Generator[int, None, None]]], Callable[[int], int]]
+):
     """
     A decorator that modifies a generator function to return the k-th prime number
     and store the last generated prime, ensuring that the sequence is non-decreasing.
@@ -94,7 +96,9 @@ def return_kth_prime():
         Callable: A decorator function that modifies the behavior of the input function.
     """
 
-    def decorator(func):
+    def decorator(
+        func: Callable[[], Generator[int, None, None]]
+    ) -> Callable[[int], int]:
         """
         Decorator that modifies the generator to return the k-th prime number
         and stores the last generated prime as an attribute.
@@ -107,10 +111,10 @@ def return_kth_prime():
             and stores the last generated prime.
         """
         gen = func()
-        last_k = 0
-        last_prime = None
+        last_k: int = 0
+        last_prime: Optional[int] = None
 
-        def wrapper(k):
+        def wrapper(k: int) -> int:
             """
             The wrapper function that executes the generator and returns the k-th prime,
             ensuring that k is greater than or equal to the last requested value.
@@ -132,6 +136,9 @@ def return_kth_prime():
                 last_prime = next(gen)
 
             last_k = k
+            if last_prime is None:
+                raise RuntimeError("Prime generator did not yield a value.")
+
             return last_prime
 
         return wrapper
