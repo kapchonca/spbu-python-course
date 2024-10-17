@@ -20,7 +20,8 @@ def get_rgba_gen() -> Generator[Tuple[int, int, int, int], None, None]:
         for r in range(256)
         for g in range(256)
         for b in range(256)
-        for a in range(0, 101, 2)
+        for a in range(0, 101)
+        if a % 2 == 0
     )
 
 
