@@ -83,52 +83,56 @@ def prime_generator() -> Generator[int, None, None]:
         num += 1
 
 
-def return_kth_prime(k: int):
+def return_kth_prime():
     """
-    A decorator that modifies a generator function to return the k-th prime number.
+    A decorator that modifies a generator function to return the k-th prime number
+    and store the last generated prime, ensuring that the sequence is non-decreasing.
 
-    Args:
-        k (int): The position of the prime number to return.
-
-    Raises:
-        TypeError: If k is not an integer.
-        ValueError: If k is less than or equal to 0.
+    The function can be called multiple times with increasing k.
 
     Returns:
         Callable: A decorator function that modifies the behavior of the input function.
     """
-    if not isinstance(k, int):
-        raise TypeError("k must be an integer.")
-    if k <= 0:
-        raise ValueError("k must be a positive integer.")
 
     def decorator(func):
         """
-        Decorator that modifies the generator to return the k-th prime number.
+        Decorator that modifies the generator to return the k-th prime number
+        and stores the last generated prime as an attribute.
 
         Args:
             func (Callable): A generator function that yields prime numbers.
 
         Returns:
-            Callable: The modified function that returns the k-th prime number.
+            Callable: The modified function that returns the k-th prime number
+            and stores the last generated prime.
         """
+        gen = func()
+        last_k = 0
+        last_prime = None
 
-        def wrapper(*args, **kwargs):
+        def wrapper(k):
             """
-            The wrapper function that executes the generator and returns the k-th prime.
+            The wrapper function that executes the generator and returns the k-th prime,
+            ensuring that k is greater than or equal to the last requested value.
 
             Args:
-                *args: Positional arguments for the generator function.
-                **kwargs: Keyword arguments for the generator function.
+                k (int): The position of the prime number to return.
 
             Returns:
                 int: The k-th prime number.
             """
-            gen = func(*args, **kwargs)
-            prime = None
-            for _ in range(k):
-                prime = next(gen)
-            return prime
+            nonlocal last_k, last_prime
+
+            if k < last_k:
+                raise ValueError(
+                    "k must be greater than or equal to the last requested value."
+                )
+
+            for _ in range(last_k, k):
+                last_prime = next(gen)
+
+            last_k = k
+            return last_prime
 
         return wrapper
 
