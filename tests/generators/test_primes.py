@@ -25,6 +25,7 @@ def decorated_prime_generator():
     [
         (1, 2),
         (5, 11),
+        (5, 11),
         (100, 541),
         (99, ValueError),
     ],
