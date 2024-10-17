@@ -43,3 +43,92 @@ def get_ith_colour(index: int) -> Tuple[int, int, int, int]:
     for _ in range(index - 1):
         next(rgba_gen)
     return next(rgba_gen)
+
+
+def prime_generator() -> Generator[int, None, None]:
+    """
+    A generator function that yields prime numbers in increasing order.
+
+    Yields:
+        int: The next prime number.
+    """
+
+    def is_prime(n: int) -> bool:
+        """
+        Checks if a number is prime.
+
+        Args:
+            n (int): The number to check for primality.
+
+        Raises:
+            TypeError: If n is not an integer.
+
+        Returns:
+            bool: True if n is a prime number, False otherwise.
+        """
+        if not isinstance(n, int):
+            raise TypeError("Number must be an integer.")
+        if n < 2:
+            return False
+        for i in range(2, int(n**0.5) + 1):
+            if n % i == 0:
+                return False
+        return True
+
+    num = 2
+    while True:
+        if is_prime(num):
+            yield num
+        num += 1
+
+
+def return_kth_prime(k: int):
+    """
+    A decorator that modifies a generator function to return the k-th prime number.
+
+    Args:
+        k (int): The position of the prime number to return.
+
+    Raises:
+        TypeError: If k is not an integer.
+        ValueError: If k is less than or equal to 0.
+
+    Returns:
+        Callable: A decorator function that modifies the behavior of the input function.
+    """
+    if not isinstance(k, int):
+        raise TypeError("k must be an integer.")
+    if k <= 0:
+        raise ValueError("k must be a positive integer.")
+
+    def decorator(func):
+        """
+        Decorator that modifies the generator to return the k-th prime number.
+
+        Args:
+            func (Callable): A generator function that yields prime numbers.
+
+        Returns:
+            Callable: The modified function that returns the k-th prime number.
+        """
+
+        def wrapper(*args, **kwargs):
+            """
+            The wrapper function that executes the generator and returns the k-th prime.
+
+            Args:
+                *args: Positional arguments for the generator function.
+                **kwargs: Keyword arguments for the generator function.
+
+            Returns:
+                int: The k-th prime number.
+            """
+            gen = func(*args, **kwargs)
+            prime = None
+            for _ in range(k):
+                prime = next(gen)
+            return prime
+
+        return wrapper
+
+    return decorator
