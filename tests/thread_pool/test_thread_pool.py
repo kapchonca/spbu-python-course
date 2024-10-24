@@ -42,7 +42,7 @@ def test_enqueue_for_task_with_parameters() -> None:
     """Test that tasks are correctly enqueued and processed."""
     pool = ThreadPool(2)
 
-    def task1(x: str, y: int) -> tuple[str, int]:
+    def task1(x: str, y: int):
         return x, y
 
     def task2(a: Any) -> Any:
