@@ -114,7 +114,7 @@ def test_ordered_execution_with_multiple_threads() -> None:
         results.append(1)
 
     def task2() -> None:
-        sleep(1)
+        sleep(0.1)
         results.append(2)
 
     def task3() -> None:
@@ -166,4 +166,29 @@ def test_thread_count() -> None:
     active_threads_in_pool = current_active_threads - initial_active_threads
 
     assert active_threads_in_pool == 4
+    pool.dispose()
+
+
+def test_pool_maximum_workers_several_times() -> None:
+    """Test that thread pool works correctly after maximum amount of workers are busy"""
+
+    pool = ThreadPool(2)
+
+    task_1 = pool.enqueue(pow, 10, 3)
+    task_2 = pool.enqueue(pow, 10, 4)
+    task_5 = pool.enqueue(pow, 10, 4)
+    res_1 = task_1.get_result()
+    res_2 = task_2.get_result()
+    res_5 = task_5.get_result()
+
+    assert (res_1, res_2, res_5) == (1e3, 1e4, 1e4)
+    sleep(0.1)
+
+    task_3 = pool.enqueue(pow, 10, 5)
+    task_4 = pool.enqueue(pow, 10, 5)
+    res_3 = task_3.get_result()
+    res_4 = task_4.get_result()
+
+    assert (res_3, res_4) == (1e5, 1e5)
+
     pool.dispose()
