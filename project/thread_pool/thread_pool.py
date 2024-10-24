@@ -78,7 +78,7 @@ class ThreadPool:
         _disposed (bool): Indicates if the pool has been disposed.
     """
 
-    def __init__(self, num_threads: int) -> None:
+    def __init__(self, num_threads: int, debug_mode: bool = True) -> None:
         """
         Initializes the ThreadPool with a specified number of threads.
 
@@ -95,6 +95,7 @@ class ThreadPool:
         self._lock = threading.Lock()
         self._condition = threading.Condition(self._lock)
         self._disposed = False
+        self._debug_mode = debug_mode
         self._create_threads(num_threads)
 
     def _worker(self) -> None:
@@ -109,13 +110,15 @@ class ThreadPool:
                     break
                 task_func = self._tasks.pop(0)
             try:
-                print(
-                    f"Thread {threading.current_thread().ident} has received a notification and is performing the task {task_func}"
-                )
+                if self._debug_mode:
+                    print(
+                        f"Thread {threading.current_thread().ident} has received a notification and is performing the task {task_func}"
+                    )
                 task_func()
-                print(
-                    f"Thread {threading.current_thread().ident} has completed working on the task"
-                )
+                if self._debug_mode:
+                    print(
+                        f"Thread {threading.current_thread().ident} has completed working on the task"
+                    )
             except Exception as e:
                 print(
                     f"Thread {threading.current_thread().ident} encountered an exception: {e}"
