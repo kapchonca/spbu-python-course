@@ -27,7 +27,7 @@ class Game:
         self._deck: Deck = Deck()
         self._players: List[BotPlayer] = players
         self._dealer: Dealer = Dealer()
-        self._round: int = 0
+        self._round: int = 1
         self._max_rounds: int = max_rounds
 
     def take_bets(self) -> None:
