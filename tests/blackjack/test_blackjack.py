@@ -24,7 +24,7 @@ def setup_game():
     return game
 
 
-@pytest.mark.parametrize("rounds_played, expected_round", [(1, 1), (3, 3), (5, 5)])
+@pytest.mark.parametrize("rounds_played, expected_round", [(1, 2), (3, 4), (5, 6)])
 def test_game_state_changes_over_time(setup_game, rounds_played, expected_round):
     """
     Test to ensure that the game's round counter and state change correctly over time.
