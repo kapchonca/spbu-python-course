@@ -1,6 +1,6 @@
 from typing import Optional
-from project.blackjack.strategies import CountingStrategy, Strategy
-from project.blackjack.objects import Card, Hand
+from project.blackjack.src.strategies import CountingStrategy, Strategy
+from project.blackjack.src.objects import Card, Hand
 
 
 class Player:

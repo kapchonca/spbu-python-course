@@ -1,7 +1,7 @@
 import random
 from typing import List
-from project.blackjack.objects import Deck, Hand
-from project.blackjack.players import BotPlayer, Dealer
+from project.blackjack.src.objects import Deck, Hand
+from project.blackjack.src.players import BotPlayer, Dealer
 
 
 class Game:

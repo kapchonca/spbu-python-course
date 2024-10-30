@@ -1,7 +1,7 @@
 import pytest
-from project.blackjack.game import Game
-from project.blackjack.players import BotPlayer
-from project.blackjack.strategies import (
+from project.blackjack.src.game import Game
+from project.blackjack.src.players import BotPlayer
+from project.blackjack.src.strategies import (
     AccurateStrategy,
     AggressiveStrategy,
     CountingStrategy,

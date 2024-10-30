@@ -1,5 +1,5 @@
 from abc import ABC, abstractmethod
-from project.blackjack.objects import Card, Hand
+from project.blackjack.src.objects import Card, Hand
 
 
 class Strategy(ABC):
