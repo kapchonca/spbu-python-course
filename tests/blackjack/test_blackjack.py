@@ -36,7 +36,7 @@ def test_game_state_changes_over_time(setup_game, rounds_played, expected_round)
     """
     game = setup_game
     for _ in range(rounds_played):
-        game.play_round()
+        game._play_round()
 
     assert (
         game._round == expected_round
@@ -51,7 +51,7 @@ def test_deal_initial_cards(setup_game):
         setup_game (Game): The game instance initialized via fixture.
     """
     game = setup_game
-    game.deal_initial_cards()
+    game._deal_initial_cards()
 
     for player in game._players:
         assert len(player.hand._cards) == 2, f"{player.name} did not receive 2 cards."
@@ -91,7 +91,7 @@ def test_settle_bets(setup_game, player_value, dealer_value, expected_result):
     initial_chips = player.chips
     player._bet = 10
 
-    game.settle_bets()
+    game._settle_bets()
     print(player.chips)
     if expected_result == "win":
         assert (
@@ -121,7 +121,7 @@ def test_game_state_progress(setup_game):
 
     rounds_to_play = 2
     for _ in range(rounds_to_play):
-        game.play_round()
+        game._play_round()
 
     assert (
         game._round == initial_round + rounds_to_play

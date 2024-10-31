@@ -30,7 +30,7 @@ class Game:
         self._round: int = 1
         self._max_rounds: int = max_rounds
 
-    def take_bets(self) -> None:
+    def _take_bets(self) -> None:
         """
         Allows each player to place a bet. Players with no chips are skipped.
         """
@@ -41,7 +41,7 @@ class Game:
             player.place_bet(bet)
             print(f"{player.name} bets {bet} chips.")
 
-    def deal_initial_cards(self) -> None:
+    def _deal_initial_cards(self) -> None:
         """
         Deals two cards to each player and the dealer, with one card hidden for the dealer.
         """
@@ -58,7 +58,7 @@ class Game:
         self._dealer._hidden_card = self._deck.deal_card()
         print(f"{self._dealer}")
 
-    def player_turns(self) -> None:
+    def _player_turns(self) -> None:
         """
         Executes each player's turn, allowing them to hit or stand based on their strategy.
         """
@@ -82,7 +82,7 @@ class Game:
                     print(f"{player.name} stands with {player.hand.value} points.")
                     break
 
-    def dealer_turn(self) -> None:
+    def _dealer_turn(self) -> None:
         """
         Executes the dealer's turn, revealing the hidden card and continuing to hit until the dealer's hand value reaches 17 or higher.
         """
@@ -102,7 +102,7 @@ class Game:
         if 17 <= self._dealer.hand.value <= 21:
             print(f"Dealer stands with {self._dealer.hand.value} points.\n")
 
-    def settle_bets(self) -> None:
+    def _settle_bets(self) -> None:
         """
         Settles all bets at the end of the round, comparing each player's hand with the dealer's hand.
         """
@@ -137,23 +137,23 @@ class Game:
         print(self._dealer)
         print("--------------------------\n")
 
-    def liquidate_broke_players(self) -> None:
+    def _liquidate_broke_players(self) -> None:
         """
         Removes players who have run out of chips from the game.
         """
         self._players = [player for player in self._players if player.chips > 0]
 
-    def play_round(self) -> None:
+    def _play_round(self) -> None:
         """
         Plays a single round of the game, including taking bets, dealing initial cards, executing player and dealer turns, and settling bets.
         """
-        self.take_bets()
-        self.deal_initial_cards()
-        self.player_turns()
+        self._take_bets()
+        self._deal_initial_cards()
+        self._player_turns()
         self.show_game_state()
-        self.dealer_turn()
-        self.settle_bets()
-        self.liquidate_broke_players()
+        self._dealer_turn()
+        self._settle_bets()
+        self._liquidate_broke_players()
         self._round += 1
 
     def play_game(self) -> None:
@@ -162,7 +162,7 @@ class Game:
         """
         while self._round < self._max_rounds and len(self._players) > 0:
             print(f"\n=== Round {self._round} ===")
-            self.play_round()
+            self._play_round()
         print("\n=== Game Over ===")
         for player in self._players:
             print(f"{player.name} has {player.chips} chips.")
