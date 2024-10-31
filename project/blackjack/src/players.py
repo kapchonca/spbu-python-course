@@ -35,13 +35,12 @@ class Player:
         self._bet: int = 0
 
     def settle_bet(self, bet_state: BetStates) -> None:
-        match bet_state:
-            case BetStates.WIN:
-                self.chips += self._bet
-            case BetStates.LOSE:
-                self.chips -= self._bet
-            case BetStates.PUSH:
-                pass
+        if bet_state == BetStates.WIN:
+            self.chips += self._bet
+        elif bet_state == BetStates.LOSE:
+            self.chips -= self._bet
+        elif bet_state == BetStates.PUSH:
+            pass
         self._bet = 0
 
     def place_bet(self, amount: int) -> None:
