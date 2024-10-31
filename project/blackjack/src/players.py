@@ -1,6 +1,13 @@
+from enum import Enum
 from typing import Optional
 from project.blackjack.src.strategies import CountingStrategy, Strategy
 from project.blackjack.src.objects import Card, Hand
+
+
+class BetStates(Enum):
+    WIN = 1
+    LOSE = 2
+    PUSH = 3
 
 
 class Player:
@@ -27,6 +34,16 @@ class Player:
         self.chips: int = chips
         self._bet: int = 0
 
+    def settle_bet(self, bet_state: BetStates) -> None:
+        match bet_state:
+            case BetStates.WIN:
+                self.chips += self._bet
+            case BetStates.LOSE:
+                self.chips -= self._bet
+            case BetStates.PUSH:
+                pass
+        self._bet = 0
+
     def place_bet(self, amount: int) -> None:
         """
         Places a bet for the player, subtracting the amount from their chips.
@@ -36,29 +53,6 @@ class Player:
         """
         amount = min(amount, self.chips)
         self._bet = amount
-
-    def win_bet(self, multiplier: int = 1) -> None:
-        """
-        Awards the player with a win multiplier on their bet.
-
-        Args:
-            multiplier (int): The multiplier for the bet. Defaults to 2.
-        """
-        self.chips += self._bet * multiplier
-        self._bet = 0
-
-    def lose_bet(self) -> None:
-        """
-        Resets the player's bet after a loss.
-        """
-        self.chips -= self._bet
-        self._bet = 0
-
-    def push_bet(self) -> None:
-        """
-        Returns the player's bet after a tie.
-        """
-        self._bet = 0
 
     def __str__(self) -> str:
         """

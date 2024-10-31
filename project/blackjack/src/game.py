@@ -1,7 +1,7 @@
 import random
 from typing import List
 from project.blackjack.src.objects import Deck, Hand
-from project.blackjack.src.players import BotPlayer, Dealer
+from project.blackjack.src.players import BotPlayer, Dealer, BetStates
 
 
 class Game:
@@ -113,19 +113,19 @@ class Game:
             player_value = player.hand.value
             if player_value > 21:
                 print(f"{player.name} loses their bet of {player._bet} chips.")
-                player.lose_bet()
+                player.settle_bet(BetStates.LOSE)
             elif dealer_value > 21:
                 print(f"{player.name} wins! Receives {player._bet} chips.")
-                player.win_bet()
+                player.settle_bet(BetStates.WIN)
             elif player_value > dealer_value:
                 print(f"{player.name} wins! Receives {player._bet} chips.")
-                player.win_bet()
+                player.settle_bet(BetStates.WIN)
             elif player_value < dealer_value:
                 print(f"{player.name} loses their bet of {player._bet} chips.")
-                player.lose_bet()
+                player.settle_bet(BetStates.LOSE)
             else:
                 print(f"{player.name} pushes. Bet of {player._bet} chips returned.")
-                player.push_bet()
+                player.settle_bet(BetStates.PUSH)
 
     def show_game_state(self) -> None:
         """
