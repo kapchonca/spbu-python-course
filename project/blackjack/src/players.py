@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 from enum import Enum
 from typing import Optional
-from project.blackjack.src.strategies import CountingStrategy, Strategy
+from project.blackjack.src.strategies import Strategy
 from project.blackjack.src.objects import Card, Hand
 
 
