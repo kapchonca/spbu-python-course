@@ -49,8 +49,9 @@ class Game:
             player.hand = Hand()
             player.hand.add_card(self._deck.deal_card())
             player.hand.add_card(self._deck.deal_card())
-            player.update_count(player.hand._cards[-2])
-            player.update_count(player.hand._cards[-1])
+            if hasattr(player._strategy, "update_count"):
+                player._strategy.update_count(player.hand._cards[-2])
+                player._strategy.update_count(player.hand._cards[-1])
             print(f"{player}")
 
         self._dealer.hand = Hand()
@@ -74,7 +75,8 @@ class Game:
                     print(
                         f"{player.name} hits and receives {card}. Hand: {player.hand}"
                     )
-                    player.update_count(card)
+                    if hasattr(player._strategy, "update_count"):
+                        player._strategy.update_count(card)
                     if player.hand.value > 21:
                         print(f"{player.name} busts!")
                         break
@@ -86,13 +88,13 @@ class Game:
         """
         Executes the dealer's turn, revealing the hidden card and continuing to hit until the dealer's hand value reaches 17 or higher.
         """
-        print("Dealer's turn:")
+        print("\nDealer's turn:")
         if self._dealer._hidden_card:
             self._dealer.hand.add_card(self._dealer._hidden_card)
             print(
                 f"Dealer reveals hidden card: {self._dealer._hidden_card}. Hand: {self._dealer.hand}"
             )
-        while self._dealer.hand.value < 17:
+        while self._dealer.decide_hit():
             card = self._deck.deal_card()
             self._dealer.hand.add_card(card)
             print(f"Dealer hits and receives {card}. Hand: {self._dealer.hand}")

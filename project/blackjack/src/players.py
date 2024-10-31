@@ -1,3 +1,4 @@
+from abc import ABC, abstractmethod
 from enum import Enum
 from typing import Optional
 from project.blackjack.src.strategies import CountingStrategy, Strategy
@@ -10,7 +11,7 @@ class BetStates(Enum):
     PUSH = 3
 
 
-class Player:
+class Player(ABC):
     """
     Represents a player in the game.
 
@@ -53,6 +54,10 @@ class Player:
         amount = min(amount, self.chips)
         self._bet = amount
 
+    @abstractmethod
+    def decide_hit(self) -> bool:
+        pass
+
     def __str__(self) -> str:
         """
         Returns the string representation of the player, their hand, and their chips.
@@ -69,7 +74,6 @@ class BotPlayer(Player):
 
     Attributes:
         _strategy (Strategy): The bot's strategy for playing.
-        _counting_strategy (Optional[CountingStrategy]): The counting strategy, if applicable.
     """
 
     def __init__(self, name: str, strategy: Strategy, chips: int = 1000) -> None:
@@ -83,9 +87,6 @@ class BotPlayer(Player):
         """
         super().__init__(name, chips)
         self._strategy: Strategy = strategy
-        self._counting_strategy: Optional[CountingStrategy] = (
-            strategy if isinstance(strategy, CountingStrategy) else None
-        )
 
     def decide_hit(self) -> bool:
         """
@@ -95,16 +96,6 @@ class BotPlayer(Player):
             bool: Decision to hit.
         """
         return self._strategy.decide_hit(self.hand)
-
-    def update_count(self, card: Card) -> None:
-        """
-        Updates the card count if using a counting strategy.
-
-        Args:
-            card (Card): The card to update the count with.
-        """
-        if self._counting_strategy:
-            self._counting_strategy.update_count(card)
 
 
 class Dealer(Player):
@@ -130,6 +121,12 @@ class Dealer(Player):
             Optional[Card]: The dealer's hidden card.
         """
         return self._hidden_card
+
+    def decide_hit(self) -> bool:
+        """
+        Dealer hits until the hand value is 17 or higher.
+        """
+        return self.hand.value < 17
 
     def __str__(self) -> str:
         """
