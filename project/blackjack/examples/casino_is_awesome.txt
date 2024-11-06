@@ -1,0 +1,1039 @@
+=== Round 1 ===
+AccurateBot bets 41 chips.
+AggressiveBot bets 75 chips.
+CountingBot bets 27 chips.
+AccurateBot: J♠, 9♣ (Value: 19) | Chips: 1000
+AggressiveBot: 4♠, 5♠ (Value: 9) | Chips: 1000
+CountingBot: 3♦, Q♠ (Value: 13) | Chips: 1000
+Dealer: J♥, Hidden
+
+AccurateBot's turn:
+AccurateBot stands with 19 points.
+
+AggressiveBot's turn:
+AggressiveBot hits and receives K♥. Hand: 4♠, 5♠, K♥ (Value: 19)
+AggressiveBot stands with 19 points.
+
+CountingBot's turn:
+CountingBot hits and receives 7♥. Hand: 3♦, Q♠, 7♥ (Value: 20)
+CountingBot stands with 20 points.
+
+--- Current Game State ---
+AccurateBot: J♠, 9♣ (Value: 19) | Chips: 1000
+AggressiveBot: 4♠, 5♠, K♥ (Value: 19) | Chips: 1000
+CountingBot: 3♦, Q♠, 7♥ (Value: 20) | Chips: 1000
+Dealer: J♥, Hidden
+--------------------------
+
+Dealer's turn:
+Dealer reveals hidden card: 8♥. Hand: J♥, 8♥ (Value: 18)
+Dealer stands with 18 points.
+
+AccurateBot wins! Receives 41 chips.
+AggressiveBot wins! Receives 75 chips.
+CountingBot wins! Receives 27 chips.
+
+=== Round 2 ===
+AccurateBot bets 22 chips.
+AggressiveBot bets 97 chips.
+CountingBot bets 4 chips.
+AccurateBot: A♦, 8♣ (Value: 19) | Chips: 1041
+AggressiveBot: 6♣, J♦ (Value: 16) | Chips: 1075
+CountingBot: 8♦, 6♦ (Value: 14) | Chips: 1027
+Dealer: 4♥, Hidden
+
+AccurateBot's turn:
+AccurateBot stands with 19 points.
+
+AggressiveBot's turn:
+AggressiveBot hits and receives 2♥. Hand: 6♣, J♦, 2♥ (Value: 18)
+AggressiveBot stands with 18 points.
+
+CountingBot's turn:
+CountingBot hits and receives A♣. Hand: 8♦, 6♦, A♣ (Value: 15)
+CountingBot hits and receives K♦. Hand: 8♦, 6♦, A♣, K♦ (Value: 25)
+CountingBot busts!
+
+--- Current Game State ---
+AccurateBot: A♦, 8♣ (Value: 19) | Chips: 1041
+AggressiveBot: 6♣, J♦, 2♥ (Value: 18) | Chips: 1075
+CountingBot: 8♦, 6♦, A♣, K♦ (Value: 25) | Chips: 1027
+Dealer: 4♥, Hidden
+--------------------------
+
+Dealer's turn:
+Dealer reveals hidden card: K♣. Hand: 4♥, K♣ (Value: 14)
+Dealer hits and receives J♣. Hand: 4♥, K♣, J♣ (Value: 24)
+Dealer busts!
+AccurateBot wins! Receives 22 chips.
+AggressiveBot wins! Receives 97 chips.
+CountingBot loses their bet of 4 chips.
+
+=== Round 3 ===
+AccurateBot bets 56 chips.
+AggressiveBot bets 15 chips.
+CountingBot bets 18 chips.
+AccurateBot: 9♥, K♠ (Value: 19) | Chips: 1063
+AggressiveBot: 3♣, 10♦ (Value: 13) | Chips: 1172
+CountingBot: 7♣, Q♣ (Value: 17) | Chips: 1023
+Dealer: 9♦, Hidden
+
+AccurateBot's turn:
+AccurateBot stands with 19 points.
+
+AggressiveBot's turn:
+AggressiveBot hits and receives 5♥. Hand: 3♣, 10♦, 5♥ (Value: 18)
+AggressiveBot stands with 18 points.
+
+CountingBot's turn:
+CountingBot stands with 17 points.
+
+--- Current Game State ---
+AccurateBot: 9♥, K♠ (Value: 19) | Chips: 1063
+AggressiveBot: 3♣, 10♦, 5♥ (Value: 18) | Chips: 1172
+CountingBot: 7♣, Q♣ (Value: 17) | Chips: 1023
+Dealer: 9♦, Hidden
+--------------------------
+
+Dealer's turn:
+Dealer reveals hidden card: 2♣. Hand: 9♦, 2♣ (Value: 11)
+Dealer hits and receives A♥. Hand: 9♦, 2♣, A♥ (Value: 12)
+Dealer hits and receives 2♦. Hand: 9♦, 2♣, A♥, 2♦ (Value: 14)
+Dealer hits and receives 3♠. Hand: 9♦, 2♣, A♥, 2♦, 3♠ (Value: 17)
+Dealer stands with 17 points.
+
+AccurateBot wins! Receives 56 chips.
+AggressiveBot wins! Receives 15 chips.
+CountingBot pushes. Bet of 18 chips returned.
+
+=== Round 4 ===
+AccurateBot bets 34 chips.
+AggressiveBot bets 43 chips.
+CountingBot bets 39 chips.
+AccurateBot: 9♠, 10♠ (Value: 19) | Chips: 1119
+AggressiveBot: 2♠, 7♠ (Value: 9) | Chips: 1187
+CountingBot: 7♦, Q♦ (Value: 17) | Chips: 1023
+Dealer: 6♠, Hidden
+
+AccurateBot's turn:
+AccurateBot stands with 19 points.
+
+AggressiveBot's turn:
+AggressiveBot hits and receives 4♣. Hand: 2♠, 7♠, 4♣ (Value: 13)
+AggressiveBot hits and receives A♠. Hand: 2♠, 7♠, 4♣, A♠ (Value: 14)
+AggressiveBot hits and receives 5♣. Hand: 2♠, 7♠, 4♣, A♠, 5♣ (Value: 19)
+AggressiveBot stands with 19 points.
+
+CountingBot's turn:
+CountingBot stands with 17 points.
+
+--- Current Game State ---
+AccurateBot: 9♠, 10♠ (Value: 19) | Chips: 1119
+AggressiveBot: 2♠, 7♠, 4♣, A♠, 5♣ (Value: 19) | Chips: 1187
+CountingBot: 7♦, Q♦ (Value: 17) | Chips: 1023
+Dealer: 6♠, Hidden
+--------------------------
+
+Dealer's turn:
+Dealer reveals hidden card: 10♣. Hand: 6♠, 10♣ (Value: 16)
+Dealer hits and receives 10♥. Hand: 6♠, 10♣, 10♥ (Value: 26)
+Dealer busts!
+AccurateBot wins! Receives 34 chips.
+AggressiveBot wins! Receives 43 chips.
+CountingBot wins! Receives 39 chips.
+
+=== Round 5 ===
+AccurateBot bets 30 chips.
+AggressiveBot bets 60 chips.
+CountingBot bets 94 chips.
+AccurateBot: 5♦, 8♠ (Value: 13) | Chips: 1153
+AggressiveBot: Q♥, 4♦ (Value: 14) | Chips: 1230
+CountingBot: 3♥, 6♥ (Value: 9) | Chips: 1062
+Dealer: 10♣, Hidden
+
+AccurateBot's turn:
+AccurateBot hits and receives 4♥. Hand: 5♦, 8♠, 4♥ (Value: 17)
+AccurateBot stands with 17 points.
+
+AggressiveBot's turn:
+AggressiveBot hits and receives 4♦. Hand: Q♥, 4♦, 4♦ (Value: 18)
+AggressiveBot stands with 18 points.
+
+CountingBot's turn:
+CountingBot hits and receives 2♠. Hand: 3♥, 6♥, 2♠ (Value: 11)
+CountingBot hits and receives K♠. Hand: 3♥, 6♥, 2♠, K♠ (Value: 21)
+CountingBot stands with 21 points.
+
+--- Current Game State ---
+AccurateBot: 5♦, 8♠, 4♥ (Value: 17) | Chips: 1153
+AggressiveBot: Q♥, 4♦, 4♦ (Value: 18) | Chips: 1230
+CountingBot: 3♥, 6♥, 2♠, K♠ (Value: 21) | Chips: 1062
+Dealer: 10♣, Hidden
+--------------------------
+
+Dealer's turn:
+Dealer reveals hidden card: 5♥. Hand: 10♣, 5♥ (Value: 15)
+Dealer hits and receives 8♦. Hand: 10♣, 5♥, 8♦ (Value: 23)
+Dealer busts!
+AccurateBot wins! Receives 30 chips.
+AggressiveBot wins! Receives 60 chips.
+CountingBot wins! Receives 94 chips.
+
+=== Round 6 ===
+AccurateBot bets 17 chips.
+AggressiveBot bets 20 chips.
+CountingBot bets 19 chips.
+AccurateBot: 4♠, 5♦ (Value: 9) | Chips: 1183
+AggressiveBot: 7♦, 10♥ (Value: 17) | Chips: 1290
+CountingBot: J♣, 9♠ (Value: 19) | Chips: 1156
+Dealer: 6♥, Hidden
+
+AccurateBot's turn:
+AccurateBot hits and receives 7♣. Hand: 4♠, 5♦, 7♣ (Value: 16)
+AccurateBot stands with 16 points.
+
+AggressiveBot's turn:
+AggressiveBot stands with 17 points.
+
+CountingBot's turn:
+CountingBot stands with 19 points.
+
+--- Current Game State ---
+AccurateBot: 4♠, 5♦, 7♣ (Value: 16) | Chips: 1183
+AggressiveBot: 7♦, 10♥ (Value: 17) | Chips: 1290
+CountingBot: J♣, 9♠ (Value: 19) | Chips: 1156
+Dealer: 6♥, Hidden
+--------------------------
+
+Dealer's turn:
+Dealer reveals hidden card: Q♦. Hand: 6♥, Q♦ (Value: 16)
+Dealer hits and receives 3♥. Hand: 6♥, Q♦, 3♥ (Value: 19)
+Dealer stands with 19 points.
+
+AccurateBot loses their bet of 17 chips.
+AggressiveBot loses their bet of 20 chips.
+CountingBot pushes. Bet of 19 chips returned.
+
+=== Round 7 ===
+AccurateBot bets 46 chips.
+AggressiveBot bets 53 chips.
+CountingBot bets 71 chips.
+AccurateBot: 7♠, Q♠ (Value: 17) | Chips: 1166
+AggressiveBot: 6♦, 8♣ (Value: 14) | Chips: 1270
+CountingBot: 7♥, K♣ (Value: 17) | Chips: 1156
+Dealer: A♠, Hidden
+
+AccurateBot's turn:
+AccurateBot stands with 17 points.
+
+AggressiveBot's turn:
+AggressiveBot hits and receives 2♣. Hand: 6♦, 8♣, 2♣ (Value: 16)
+AggressiveBot hits and receives Q♥. Hand: 6♦, 8♣, 2♣, Q♥ (Value: 26)
+AggressiveBot busts!
+
+CountingBot's turn:
+CountingBot stands with 17 points.
+
+--- Current Game State ---
+AccurateBot: 7♠, Q♠ (Value: 17) | Chips: 1166
+AggressiveBot: 6♦, 8♣, 2♣, Q♥ (Value: 26) | Chips: 1270
+CountingBot: 7♥, K♣ (Value: 17) | Chips: 1156
+Dealer: A♠, Hidden
+--------------------------
+
+Dealer's turn:
+Dealer reveals hidden card: A♦. Hand: A♠, A♦ (Value: 12)
+Dealer hits and receives J♦. Hand: A♠, A♦, J♦ (Value: 12)
+Dealer hits and receives 10♠. Hand: A♠, A♦, J♦, 10♠ (Value: 22)
+Dealer busts!
+AccurateBot wins! Receives 46 chips.
+AggressiveBot loses their bet of 53 chips.
+CountingBot wins! Receives 71 chips.
+
+=== Round 8 ===
+AccurateBot bets 94 chips.
+AggressiveBot bets 38 chips.
+CountingBot bets 90 chips.
+AccurateBot: K♥, 5♠ (Value: 15) | Chips: 1212
+AggressiveBot: 3♠, 9♦ (Value: 12) | Chips: 1217
+CountingBot: A♣, J♥ (Value: 21) | Chips: 1227
+Dealer: 2♦, Hidden
+
+AccurateBot's turn:
+AccurateBot stands with 15 points.
+
+AggressiveBot's turn:
+AggressiveBot hits and receives 5♣. Hand: 3♠, 9♦, 5♣ (Value: 17)
+AggressiveBot stands with 17 points.
+
+CountingBot's turn:
+CountingBot stands with 21 points.
+
+--- Current Game State ---
+AccurateBot: K♥, 5♠ (Value: 15) | Chips: 1212
+AggressiveBot: 3♠, 9♦, 5♣ (Value: 17) | Chips: 1217
+CountingBot: A♣, J♥ (Value: 21) | Chips: 1227
+Dealer: 2♦, Hidden
+--------------------------
+
+Dealer's turn:
+Dealer reveals hidden card: A♥. Hand: 2♦, A♥ (Value: 13)
+Dealer hits and receives 9♣. Hand: 2♦, A♥, 9♣ (Value: 12)
+Dealer hits and receives 2♥. Hand: 2♦, A♥, 9♣, 2♥ (Value: 14)
+Dealer hits and receives 8♠. Hand: 2♦, A♥, 9♣, 2♥, 8♠ (Value: 22)
+Dealer busts!
+AccurateBot wins! Receives 94 chips.
+AggressiveBot wins! Receives 38 chips.
+CountingBot wins! Receives 90 chips.
+
+=== Round 9 ===
+AccurateBot bets 20 chips.
+AggressiveBot bets 80 chips.
+CountingBot bets 71 chips.
+AccurateBot: 6♣, 4♣ (Value: 10) | Chips: 1306
+AggressiveBot: K♦, 10♦ (Value: 20) | Chips: 1255
+CountingBot: 3♣, 3♦ (Value: 6) | Chips: 1317
+Dealer: 6♠, Hidden
+
+AccurateBot's turn:
+AccurateBot hits and receives 8♥. Hand: 6♣, 4♣, 8♥ (Value: 18)
+AccurateBot stands with 18 points.
+
+AggressiveBot's turn:
+AggressiveBot stands with 20 points.
+
+CountingBot's turn:
+CountingBot hits and receives 9♥. Hand: 3♣, 3♦, 9♥ (Value: 15)
+CountingBot hits and receives J♠. Hand: 3♣, 3♦, 9♥, J♠ (Value: 25)
+CountingBot busts!
+
+--- Current Game State ---
+AccurateBot: 6♣, 4♣, 8♥ (Value: 18) | Chips: 1306
+AggressiveBot: K♦, 10♦ (Value: 20) | Chips: 1255
+CountingBot: 3♣, 3♦, 9♥, J♠ (Value: 25) | Chips: 1317
+Dealer: 6♠, Hidden
+--------------------------
+
+Dealer's turn:
+Dealer reveals hidden card: Q♣. Hand: 6♠, Q♣ (Value: 16)
+Dealer hits and receives 2♣. Hand: 6♠, Q♣, 2♣ (Value: 18)
+Dealer stands with 18 points.
+
+AccurateBot pushes. Bet of 20 chips returned.
+AggressiveBot wins! Receives 80 chips.
+CountingBot loses their bet of 71 chips.
+
+=== Round 10 ===
+AccurateBot bets 29 chips.
+AggressiveBot bets 25 chips.
+CountingBot bets 63 chips.
+AccurateBot: 5♥, 9♠ (Value: 14) | Chips: 1306
+AggressiveBot: 9♥, 8♥ (Value: 17) | Chips: 1335
+CountingBot: 2♠, 3♦ (Value: 5) | Chips: 1246
+Dealer: Q♠, Hidden
+
+AccurateBot's turn:
+AccurateBot stands with 14 points.
+
+AggressiveBot's turn:
+AggressiveBot stands with 17 points.
+
+CountingBot's turn:
+CountingBot hits and receives 2♦. Hand: 2♠, 3♦, 2♦ (Value: 7)
+CountingBot hits and receives 8♦. Hand: 2♠, 3♦, 2♦, 8♦ (Value: 15)
+CountingBot hits and receives 4♣. Hand: 2♠, 3♦, 2♦, 8♦, 4♣ (Value: 19)
+CountingBot stands with 19 points.
+
+--- Current Game State ---
+AccurateBot: 5♥, 9♠ (Value: 14) | Chips: 1306
+AggressiveBot: 9♥, 8♥ (Value: 17) | Chips: 1335
+CountingBot: 2♠, 3♦, 2♦, 8♦, 4♣ (Value: 19) | Chips: 1246
+Dealer: Q♠, Hidden
+--------------------------
+
+Dealer's turn:
+Dealer reveals hidden card: 3♣. Hand: Q♠, 3♣ (Value: 13)
+Dealer hits and receives Q♣. Hand: Q♠, 3♣, Q♣ (Value: 23)
+Dealer busts!
+AccurateBot wins! Receives 29 chips.
+AggressiveBot wins! Receives 25 chips.
+CountingBot wins! Receives 63 chips.
+
+=== Round 11 ===
+AccurateBot bets 34 chips.
+AggressiveBot bets 4 chips.
+CountingBot bets 46 chips.
+AccurateBot: A♣, J♦ (Value: 21) | Chips: 1335
+AggressiveBot: 10♦, A♥ (Value: 21) | Chips: 1360
+CountingBot: Q♥, 2♥ (Value: 12) | Chips: 1309
+Dealer: 10♥, Hidden
+
+AccurateBot's turn:
+AccurateBot stands with 21 points.
+
+AggressiveBot's turn:
+AggressiveBot stands with 21 points.
+
+CountingBot's turn:
+CountingBot hits and receives 6♦. Hand: Q♥, 2♥, 6♦ (Value: 18)
+CountingBot stands with 18 points.
+
+--- Current Game State ---
+AccurateBot: A♣, J♦ (Value: 21) | Chips: 1335
+AggressiveBot: 10♦, A♥ (Value: 21) | Chips: 1360
+CountingBot: Q♥, 2♥, 6♦ (Value: 18) | Chips: 1309
+Dealer: 10♥, Hidden
+--------------------------
+
+Dealer's turn:
+Dealer reveals hidden card: 7♦. Hand: 10♥, 7♦ (Value: 17)
+Dealer stands with 17 points.
+
+AccurateBot wins! Receives 34 chips.
+AggressiveBot wins! Receives 4 chips.
+CountingBot wins! Receives 46 chips.
+
+=== Round 12 ===
+AccurateBot bets 70 chips.
+AggressiveBot bets 50 chips.
+CountingBot bets 92 chips.
+AccurateBot: 10♣, 6♥ (Value: 16) | Chips: 1369
+AggressiveBot: 10♠, J♠ (Value: 20) | Chips: 1364
+CountingBot: 7♥, A♦ (Value: 18) | Chips: 1355
+Dealer: 9♦, Hidden
+
+AccurateBot's turn:
+AccurateBot stands with 16 points.
+
+AggressiveBot's turn:
+AggressiveBot stands with 20 points.
+
+CountingBot's turn:
+CountingBot stands with 18 points.
+
+--- Current Game State ---
+AccurateBot: 10♣, 6♥ (Value: 16) | Chips: 1369
+AggressiveBot: 10♠, J♠ (Value: 20) | Chips: 1364
+CountingBot: 7♥, A♦ (Value: 18) | Chips: 1355
+Dealer: 9♦, Hidden
+--------------------------
+
+Dealer's turn:
+Dealer reveals hidden card: 4♦. Hand: 9♦, 4♦ (Value: 13)
+Dealer hits and receives 4♠. Hand: 9♦, 4♦, 4♠ (Value: 17)
+Dealer stands with 17 points.
+
+AccurateBot loses their bet of 70 chips.
+AggressiveBot wins! Receives 50 chips.
+CountingBot wins! Receives 92 chips.
+
+=== Round 13 ===
+AccurateBot bets 97 chips.
+AggressiveBot bets 34 chips.
+CountingBot bets 88 chips.
+AccurateBot: 3♥, 4♥ (Value: 7) | Chips: 1299
+AggressiveBot: K♣, 5♠ (Value: 15) | Chips: 1414
+CountingBot: K♦, 5♣ (Value: 15) | Chips: 1447
+Dealer: J♣, Hidden
+
+AccurateBot's turn:
+AccurateBot hits and receives A♠. Hand: 3♥, 4♥, A♠ (Value: 18)
+AccurateBot stands with 18 points.
+
+AggressiveBot's turn:
+AggressiveBot hits and receives K♠. Hand: K♣, 5♠, K♠ (Value: 25)
+AggressiveBot busts!
+
+CountingBot's turn:
+CountingBot hits and receives J♥. Hand: K♦, 5♣, J♥ (Value: 25)
+CountingBot busts!
+
+--- Current Game State ---
+AccurateBot: 3♥, 4♥, A♠ (Value: 18) | Chips: 1299
+AggressiveBot: K♣, 5♠, K♠ (Value: 25) | Chips: 1414
+CountingBot: K♦, 5♣, J♥ (Value: 25) | Chips: 1447
+Dealer: J♣, Hidden
+--------------------------
+
+Dealer's turn:
+Dealer reveals hidden card: Q♦. Hand: J♣, Q♦ (Value: 20)
+Dealer stands with 20 points.
+
+AccurateBot loses their bet of 97 chips.
+AggressiveBot loses their bet of 34 chips.
+CountingBot loses their bet of 88 chips.
+
+=== Round 14 ===
+AccurateBot bets 52 chips.
+AggressiveBot bets 54 chips.
+CountingBot bets 77 chips.
+AccurateBot: 3♠, 6♣ (Value: 9) | Chips: 1202
+AggressiveBot: 7♣, 7♠ (Value: 14) | Chips: 1380
+CountingBot: 9♣, 8♣ (Value: 17) | Chips: 1359
+Dealer: 8♠, Hidden
+
+AccurateBot's turn:
+AccurateBot hits and receives 5♦. Hand: 3♠, 6♣, 5♦ (Value: 14)
+AccurateBot stands with 14 points.
+
+AggressiveBot's turn:
+AggressiveBot hits and receives K♥. Hand: 7♣, 7♠, K♥ (Value: 24)
+AggressiveBot busts!
+
+CountingBot's turn:
+CountingBot stands with 17 points.
+
+--- Current Game State ---
+AccurateBot: 3♠, 6♣, 5♦ (Value: 14) | Chips: 1202
+AggressiveBot: 7♣, 7♠, K♥ (Value: 24) | Chips: 1380
+CountingBot: 9♣, 8♣ (Value: 17) | Chips: 1359
+Dealer: 8♠, Hidden
+--------------------------
+
+Dealer's turn:
+Dealer reveals hidden card: 6♠. Hand: 8♠, 6♠ (Value: 14)
+Dealer hits and receives 7♠. Hand: 8♠, 6♠, 7♠ (Value: 21)
+Dealer stands with 21 points.
+
+AccurateBot loses their bet of 52 chips.
+AggressiveBot loses their bet of 54 chips.
+CountingBot loses their bet of 77 chips.
+
+=== Round 15 ===
+AccurateBot bets 39 chips.
+AggressiveBot bets 84 chips.
+CountingBot bets 38 chips.
+AccurateBot: Q♥, J♠ (Value: 20) | Chips: 1150
+AggressiveBot: 9♠, 10♣ (Value: 19) | Chips: 1326
+CountingBot: Q♠, 10♦ (Value: 20) | Chips: 1282
+Dealer: 8♠, Hidden
+
+AccurateBot's turn:
+AccurateBot stands with 20 points.
+
+AggressiveBot's turn:
+AggressiveBot stands with 19 points.
+
+CountingBot's turn:
+CountingBot stands with 20 points.
+
+--- Current Game State ---
+AccurateBot: Q♥, J♠ (Value: 20) | Chips: 1150
+AggressiveBot: 9♠, 10♣ (Value: 19) | Chips: 1326
+CountingBot: Q♠, 10♦ (Value: 20) | Chips: 1282
+Dealer: 8♠, Hidden
+--------------------------
+
+Dealer's turn:
+Dealer reveals hidden card: K♥. Hand: 8♠, K♥ (Value: 18)
+Dealer stands with 18 points.
+
+AccurateBot wins! Receives 39 chips.
+AggressiveBot wins! Receives 84 chips.
+CountingBot wins! Receives 38 chips.
+
+=== Round 16 ===
+AccurateBot bets 86 chips.
+AggressiveBot bets 53 chips.
+CountingBot bets 98 chips.
+AccurateBot: 2♠, A♥ (Value: 13) | Chips: 1189
+AggressiveBot: 4♣, 5♣ (Value: 9) | Chips: 1410
+CountingBot: K♠, 2♣ (Value: 12) | Chips: 1320
+Dealer: A♣, Hidden
+
+AccurateBot's turn:
+AccurateBot hits and receives A♠. Hand: 2♠, A♥, A♠ (Value: 14)
+AccurateBot stands with 14 points.
+
+AggressiveBot's turn:
+AggressiveBot hits and receives 6♦. Hand: 4♣, 5♣, 6♦ (Value: 15)
+AggressiveBot hits and receives 2♥. Hand: 4♣, 5♣, 6♦, 2♥ (Value: 17)
+AggressiveBot stands with 17 points.
+
+CountingBot's turn:
+CountingBot hits and receives 8♣. Hand: K♠, 2♣, 8♣ (Value: 20)
+CountingBot stands with 20 points.
+
+--- Current Game State ---
+AccurateBot: 2♠, A♥, A♠ (Value: 14) | Chips: 1189
+AggressiveBot: 4♣, 5♣, 6♦, 2♥ (Value: 17) | Chips: 1410
+CountingBot: K♠, 2♣, 8♣ (Value: 20) | Chips: 1320
+Dealer: A♣, Hidden
+--------------------------
+
+Dealer's turn:
+Dealer reveals hidden card: 7♦. Hand: A♣, 7♦ (Value: 18)
+Dealer stands with 18 points.
+
+AccurateBot loses their bet of 86 chips.
+AggressiveBot loses their bet of 53 chips.
+CountingBot wins! Receives 98 chips.
+
+=== Round 17 ===
+AccurateBot bets 32 chips.
+AggressiveBot bets 54 chips.
+CountingBot bets 53 chips.
+AccurateBot: Q♦, K♣ (Value: 20) | Chips: 1103
+AggressiveBot: 3♠, 10♠ (Value: 13) | Chips: 1357
+CountingBot: 5♥, 7♥ (Value: 12) | Chips: 1418
+Dealer: K♦, Hidden
+
+AccurateBot's turn:
+AccurateBot stands with 20 points.
+
+AggressiveBot's turn:
+AggressiveBot hits and receives Q♣. Hand: 3♠, 10♠, Q♣ (Value: 23)
+AggressiveBot busts!
+
+CountingBot's turn:
+CountingBot hits and receives A♦. Hand: 5♥, 7♥, A♦ (Value: 13)
+CountingBot hits and receives 6♣. Hand: 5♥, 7♥, A♦, 6♣ (Value: 19)
+CountingBot stands with 19 points.
+
+--- Current Game State ---
+AccurateBot: Q♦, K♣ (Value: 20) | Chips: 1103
+AggressiveBot: 3♠, 10♠, Q♣ (Value: 23) | Chips: 1357
+CountingBot: 5♥, 7♥, A♦, 6♣ (Value: 19) | Chips: 1418
+Dealer: K♦, Hidden
+--------------------------
+
+Dealer's turn:
+Dealer reveals hidden card: 8♦. Hand: K♦, 8♦ (Value: 18)
+Dealer stands with 18 points.
+
+AccurateBot wins! Receives 32 chips.
+AggressiveBot loses their bet of 54 chips.
+CountingBot wins! Receives 53 chips.
+
+=== Round 18 ===
+AccurateBot bets 12 chips.
+AggressiveBot bets 60 chips.
+CountingBot bets 90 chips.
+AccurateBot: 6♥, 4♠ (Value: 10) | Chips: 1135
+AggressiveBot: 8♥, 4♥ (Value: 12) | Chips: 1303
+CountingBot: J♣, 9♣ (Value: 19) | Chips: 1471
+Dealer: 10♥, Hidden
+
+AccurateBot's turn:
+AccurateBot hits and receives 3♥. Hand: 6♥, 4♠, 3♥ (Value: 13)
+AccurateBot hits and receives 7♣. Hand: 6♥, 4♠, 3♥, 7♣ (Value: 20)
+AccurateBot stands with 20 points.
+
+AggressiveBot's turn:
+AggressiveBot hits and receives 9♥. Hand: 8♥, 4♥, 9♥ (Value: 21)
+AggressiveBot stands with 21 points.
+
+CountingBot's turn:
+CountingBot stands with 19 points.
+
+--- Current Game State ---
+AccurateBot: 6♥, 4♠, 3♥, 7♣ (Value: 20) | Chips: 1135
+AggressiveBot: 8♥, 4♥, 9♥ (Value: 21) | Chips: 1303
+CountingBot: J♣, 9♣ (Value: 19) | Chips: 1471
+Dealer: 10♥, Hidden
+--------------------------
+
+Dealer's turn:
+Dealer reveals hidden card: 4♦. Hand: 10♥, 4♦ (Value: 14)
+Dealer hits and receives 3♣. Hand: 10♥, 4♦, 3♣ (Value: 17)
+Dealer stands with 17 points.
+
+AccurateBot wins! Receives 12 chips.
+AggressiveBot wins! Receives 60 chips.
+CountingBot wins! Receives 90 chips.
+
+=== Round 19 ===
+AccurateBot bets 82 chips.
+AggressiveBot bets 94 chips.
+CountingBot bets 73 chips.
+AccurateBot: J♦, 5♦ (Value: 15) | Chips: 1147
+AggressiveBot: 2♦, J♥ (Value: 12) | Chips: 1363
+CountingBot: 6♠, 9♦ (Value: 15) | Chips: 1561
+Dealer: 5♠, Hidden
+
+AccurateBot's turn:
+AccurateBot stands with 15 points.
+
+AggressiveBot's turn:
+AggressiveBot hits and receives 5♦. Hand: 2♦, J♥, 5♦ (Value: 17)
+AggressiveBot stands with 17 points.
+
+CountingBot's turn:
+CountingBot hits and receives K♠. Hand: 6♠, 9♦, K♠ (Value: 25)
+CountingBot busts!
+
+--- Current Game State ---
+AccurateBot: J♦, 5♦ (Value: 15) | Chips: 1147
+AggressiveBot: 2♦, J♥, 5♦ (Value: 17) | Chips: 1363
+CountingBot: 6♠, 9♦, K♠ (Value: 25) | Chips: 1561
+Dealer: 5♠, Hidden
+--------------------------
+
+Dealer's turn:
+Dealer reveals hidden card: 3♦. Hand: 5♠, 3♦ (Value: 8)
+Dealer hits and receives 7♥. Hand: 5♠, 3♦, 7♥ (Value: 15)
+Dealer hits and receives 7♠. Hand: 5♠, 3♦, 7♥, 7♠ (Value: 22)
+Dealer busts!
+AccurateBot wins! Receives 82 chips.
+AggressiveBot wins! Receives 94 chips.
+CountingBot loses their bet of 73 chips.
+
+=== Round 20 ===
+AccurateBot bets 57 chips.
+AggressiveBot bets 18 chips.
+CountingBot bets 12 chips.
+AccurateBot: 3♣, 10♥ (Value: 13) | Chips: 1229
+AggressiveBot: 7♣, 6♥ (Value: 13) | Chips: 1457
+CountingBot: 10♣, A♠ (Value: 21) | Chips: 1488
+Dealer: K♦, Hidden
+
+AccurateBot's turn:
+AccurateBot hits and receives 8♠. Hand: 3♣, 10♥, 8♠ (Value: 21)
+AccurateBot stands with 21 points.
+
+AggressiveBot's turn:
+AggressiveBot hits and receives 2♦. Hand: 7♣, 6♥, 2♦ (Value: 15)
+AggressiveBot hits and receives K♣. Hand: 7♣, 6♥, 2♦, K♣ (Value: 25)
+AggressiveBot busts!
+
+CountingBot's turn:
+CountingBot stands with 21 points.
+
+--- Current Game State ---
+AccurateBot: 3♣, 10♥, 8♠ (Value: 21) | Chips: 1229
+AggressiveBot: 7♣, 6♥, 2♦, K♣ (Value: 25) | Chips: 1457
+CountingBot: 10♣, A♠ (Value: 21) | Chips: 1488
+Dealer: K♦, Hidden
+--------------------------
+
+Dealer's turn:
+Dealer reveals hidden card: 9♠. Hand: K♦, 9♠ (Value: 19)
+Dealer stands with 19 points.
+
+AccurateBot wins! Receives 57 chips.
+AggressiveBot loses their bet of 18 chips.
+CountingBot wins! Receives 12 chips.
+
+=== Round 21 ===
+AccurateBot bets 53 chips.
+AggressiveBot bets 13 chips.
+CountingBot bets 8 chips.
+AccurateBot: Q♥, 3♥ (Value: 13) | Chips: 1286
+AggressiveBot: 9♥, 4♠ (Value: 13) | Chips: 1439
+CountingBot: K♥, 10♦ (Value: 20) | Chips: 1500
+Dealer: 2♣, Hidden
+
+AccurateBot's turn:
+AccurateBot hits and receives A♥. Hand: Q♥, 3♥, A♥ (Value: 14)
+AccurateBot stands with 14 points.
+
+AggressiveBot's turn:
+AggressiveBot hits and receives 2♥. Hand: 9♥, 4♠, 2♥ (Value: 15)
+AggressiveBot hits and receives 7♦. Hand: 9♥, 4♠, 2♥, 7♦ (Value: 22)
+AggressiveBot busts!
+
+CountingBot's turn:
+CountingBot stands with 20 points.
+
+--- Current Game State ---
+AccurateBot: Q♥, 3♥, A♥ (Value: 14) | Chips: 1286
+AggressiveBot: 9♥, 4♠, 2♥, 7♦ (Value: 22) | Chips: 1439
+CountingBot: K♥, 10♦ (Value: 20) | Chips: 1500
+Dealer: 2♣, Hidden
+--------------------------
+
+Dealer's turn:
+Dealer reveals hidden card: J♠. Hand: 2♣, J♠ (Value: 12)
+Dealer hits and receives 3♠. Hand: 2♣, J♠, 3♠ (Value: 15)
+Dealer hits and receives Q♠. Hand: 2♣, J♠, 3♠, Q♠ (Value: 25)
+Dealer busts!
+AccurateBot wins! Receives 53 chips.
+AggressiveBot loses their bet of 13 chips.
+CountingBot wins! Receives 8 chips.
+
+=== Round 22 ===
+AccurateBot bets 98 chips.
+AggressiveBot bets 8 chips.
+CountingBot bets 34 chips.
+AccurateBot: 6♠, A♦ (Value: 17) | Chips: 1339
+AggressiveBot: 4♣, 9♦ (Value: 13) | Chips: 1426
+CountingBot: 3♦, J♥ (Value: 13) | Chips: 1508
+Dealer: Q♣, Hidden
+
+AccurateBot's turn:
+AccurateBot stands with 17 points.
+
+AggressiveBot's turn:
+AggressiveBot hits and receives 4♦. Hand: 4♣, 9♦, 4♦ (Value: 17)
+AggressiveBot stands with 17 points.
+
+CountingBot's turn:
+CountingBot hits and receives 8♥. Hand: 3♦, J♥, 8♥ (Value: 21)
+CountingBot stands with 21 points.
+
+--- Current Game State ---
+AccurateBot: 6♠, A♦ (Value: 17) | Chips: 1339
+AggressiveBot: 4♣, 9♦, 4♦ (Value: 17) | Chips: 1426
+CountingBot: 3♦, J♥, 8♥ (Value: 21) | Chips: 1508
+Dealer: Q♣, Hidden
+--------------------------
+
+Dealer's turn:
+Dealer reveals hidden card: 5♥. Hand: Q♣, 5♥ (Value: 15)
+Dealer hits and receives J♦. Hand: Q♣, 5♥, J♦ (Value: 25)
+Dealer busts!
+AccurateBot wins! Receives 98 chips.
+AggressiveBot wins! Receives 8 chips.
+CountingBot wins! Receives 34 chips.
+
+=== Round 23 ===
+AccurateBot bets 42 chips.
+AggressiveBot bets 59 chips.
+CountingBot bets 23 chips.
+AccurateBot: 4♥, 5♠ (Value: 9) | Chips: 1437
+AggressiveBot: J♣, 8♣ (Value: 18) | Chips: 1434
+CountingBot: 6♣, 8♦ (Value: 14) | Chips: 1542
+Dealer: Q♦, Hidden
+
+AccurateBot's turn:
+AccurateBot hits and receives 9♣. Hand: 4♥, 5♠, 9♣ (Value: 18)
+AccurateBot stands with 18 points.
+
+AggressiveBot's turn:
+AggressiveBot stands with 18 points.
+
+CountingBot's turn:
+CountingBot hits and receives A♣. Hand: 6♣, 8♦, A♣ (Value: 15)
+CountingBot hits and receives 6♦. Hand: 6♣, 8♦, A♣, 6♦ (Value: 21)
+CountingBot stands with 21 points.
+
+--- Current Game State ---
+AccurateBot: 4♥, 5♠, 9♣ (Value: 18) | Chips: 1437
+AggressiveBot: J♣, 8♣ (Value: 18) | Chips: 1434
+CountingBot: 6♣, 8♦, A♣, 6♦ (Value: 21) | Chips: 1542
+Dealer: Q♦, Hidden
+--------------------------
+
+Dealer's turn:
+Dealer reveals hidden card: 2♠. Hand: Q♦, 2♠ (Value: 12)
+Dealer hits and receives 10♠. Hand: Q♦, 2♠, 10♠ (Value: 22)
+Dealer busts!
+AccurateBot wins! Receives 42 chips.
+AggressiveBot wins! Receives 59 chips.
+CountingBot wins! Receives 23 chips.
+
+=== Round 24 ===
+AccurateBot bets 52 chips.
+AggressiveBot bets 89 chips.
+CountingBot bets 29 chips.
+AccurateBot: 5♣, 7♣ (Value: 12) | Chips: 1479
+AggressiveBot: 2♦, 6♦ (Value: 8) | Chips: 1493
+CountingBot: 4♠, K♣ (Value: 14) | Chips: 1565
+Dealer: A♦, Hidden
+
+AccurateBot's turn:
+AccurateBot hits and receives Q♣. Hand: 5♣, 7♣, Q♣ (Value: 22)
+AccurateBot busts!
+
+AggressiveBot's turn:
+AggressiveBot hits and receives Q♥. Hand: 2♦, 6♦, Q♥ (Value: 18)
+AggressiveBot stands with 18 points.
+
+CountingBot's turn:
+CountingBot hits and receives 8♣. Hand: 4♠, K♣, 8♣ (Value: 22)
+CountingBot busts!
+
+--- Current Game State ---
+AccurateBot: 5♣, 7♣, Q♣ (Value: 22) | Chips: 1479
+AggressiveBot: 2♦, 6♦, Q♥ (Value: 18) | Chips: 1493
+CountingBot: 4♠, K♣, 8♣ (Value: 22) | Chips: 1565
+Dealer: A♦, Hidden
+--------------------------
+
+Dealer's turn:
+Dealer reveals hidden card: 5♦. Hand: A♦, 5♦ (Value: 16)
+Dealer hits and receives 3♦. Hand: A♦, 5♦, 3♦ (Value: 19)
+Dealer stands with 19 points.
+
+AccurateBot loses their bet of 52 chips.
+AggressiveBot loses their bet of 89 chips.
+CountingBot loses their bet of 29 chips.
+
+=== Round 25 ===
+AccurateBot bets 98 chips.
+AggressiveBot bets 17 chips.
+CountingBot bets 93 chips.
+AccurateBot: 4♣, A♥ (Value: 15) | Chips: 1427
+AggressiveBot: 9♠, 8♥ (Value: 17) | Chips: 1404
+CountingBot: 8♠, J♦ (Value: 18) | Chips: 1536
+Dealer: 9♥, Hidden
+
+AccurateBot's turn:
+AccurateBot stands with 15 points.
+
+AggressiveBot's turn:
+AggressiveBot stands with 17 points.
+
+CountingBot's turn:
+CountingBot stands with 18 points.
+
+--- Current Game State ---
+AccurateBot: 4♣, A♥ (Value: 15) | Chips: 1427
+AggressiveBot: 9♠, 8♥ (Value: 17) | Chips: 1404
+CountingBot: 8♠, J♦ (Value: 18) | Chips: 1536
+Dealer: 9♥, Hidden
+--------------------------
+
+Dealer's turn:
+Dealer reveals hidden card: K♠. Hand: 9♥, K♠ (Value: 19)
+Dealer stands with 19 points.
+
+AccurateBot loses their bet of 98 chips.
+AggressiveBot loses their bet of 17 chips.
+CountingBot loses their bet of 93 chips.
+
+=== Round 26 ===
+AccurateBot bets 22 chips.
+AggressiveBot bets 48 chips.
+CountingBot bets 51 chips.
+AccurateBot: 10♦, 8♦ (Value: 18) | Chips: 1329
+AggressiveBot: 3♠, 5♥ (Value: 8) | Chips: 1387
+CountingBot: A♣, 10♠ (Value: 21) | Chips: 1443
+Dealer: 3♣, Hidden
+
+AccurateBot's turn:
+AccurateBot stands with 18 points.
+
+AggressiveBot's turn:
+AggressiveBot hits and receives 5♣. Hand: 3♠, 5♥, 5♣ (Value: 13)
+AggressiveBot hits and receives 6♠. Hand: 3♠, 5♥, 5♣, 6♠ (Value: 19)
+AggressiveBot stands with 19 points.
+
+CountingBot's turn:
+CountingBot stands with 21 points.
+
+--- Current Game State ---
+AccurateBot: 10♦, 8♦ (Value: 18) | Chips: 1329
+AggressiveBot: 3♠, 5♥, 5♣, 6♠ (Value: 19) | Chips: 1387
+CountingBot: A♣, 10♠ (Value: 21) | Chips: 1443
+Dealer: 3♣, Hidden
+--------------------------
+
+Dealer's turn:
+Dealer reveals hidden card: 10♥. Hand: 3♣, 10♥ (Value: 13)
+Dealer hits and receives 9♦. Hand: 3♣, 10♥, 9♦ (Value: 22)
+Dealer busts!
+AccurateBot wins! Receives 22 chips.
+AggressiveBot wins! Receives 48 chips.
+CountingBot wins! Receives 51 chips.
+
+=== Round 27 ===
+AccurateBot bets 48 chips.
+AggressiveBot bets 79 chips.
+CountingBot bets 86 chips.
+AccurateBot: Q♠, 10♣ (Value: 20) | Chips: 1351
+AggressiveBot: 9♣, 7♦ (Value: 16) | Chips: 1435
+CountingBot: 6♣, 3♥ (Value: 9) | Chips: 1494
+Dealer: A♠, Hidden
+
+AccurateBot's turn:
+AccurateBot stands with 20 points.
+
+AggressiveBot's turn:
+AggressiveBot hits and receives 5♠. Hand: 9♣, 7♦, 5♠ (Value: 21)
+AggressiveBot stands with 21 points.
+
+CountingBot's turn:
+CountingBot hits and receives J♥. Hand: 6♣, 3♥, J♥ (Value: 19)
+CountingBot stands with 19 points.
+
+--- Current Game State ---
+AccurateBot: Q♠, 10♣ (Value: 20) | Chips: 1351
+AggressiveBot: 9♣, 7♦, 5♠ (Value: 21) | Chips: 1435
+CountingBot: 6♣, 3♥, J♥ (Value: 19) | Chips: 1494
+Dealer: A♠, Hidden
+--------------------------
+
+Dealer's turn:
+Dealer reveals hidden card: 2♥. Hand: A♠, 2♥ (Value: 13)
+Dealer hits and receives K♦. Hand: A♠, 2♥, K♦ (Value: 13)
+Dealer hits and receives J♠. Hand: A♠, 2♥, K♦, J♠ (Value: 23)
+Dealer busts!
+AccurateBot wins! Receives 48 chips.
+AggressiveBot wins! Receives 79 chips.
+CountingBot wins! Receives 86 chips.
+
+=== Round 28 ===
+AccurateBot bets 78 chips.
+AggressiveBot bets 58 chips.
+CountingBot bets 93 chips.
+AccurateBot: J♣, 4♦ (Value: 14) | Chips: 1399
+AggressiveBot: 7♥, K♥ (Value: 17) | Chips: 1514
+CountingBot: 2♠, Q♦ (Value: 12) | Chips: 1580
+Dealer: 6♥, Hidden
+
+AccurateBot's turn:
+AccurateBot stands with 14 points.
+
+AggressiveBot's turn:
+AggressiveBot stands with 17 points.
+
+CountingBot's turn:
+CountingBot hits and receives 4♥. Hand: 2♠, Q♦, 4♥ (Value: 16)
+CountingBot stands with 16 points.
+
+--- Current Game State ---
+AccurateBot: J♣, 4♦ (Value: 14) | Chips: 1399
+AggressiveBot: 7♥, K♥ (Value: 17) | Chips: 1514
+CountingBot: 2♠, Q♦, 4♥ (Value: 16) | Chips: 1580
+Dealer: 6♥, Hidden
+--------------------------
+
+Dealer's turn:
+Dealer reveals hidden card: 2♣. Hand: 6♥, 2♣ (Value: 8)
+Dealer hits and receives 7♠. Hand: 6♥, 2♣, 7♠ (Value: 15)
+Dealer hits and receives 9♦. Hand: 6♥, 2♣, 7♠, 9♦ (Value: 24)
+Dealer busts!
+AccurateBot wins! Receives 78 chips.
+AggressiveBot wins! Receives 58 chips.
+CountingBot wins! Receives 93 chips.
+
+=== Round 29 ===
+AccurateBot bets 38 chips.
+AggressiveBot bets 16 chips.
+CountingBot bets 99 chips.
+AccurateBot: 5♥, 7♠ (Value: 12) | Chips: 1477
+AggressiveBot: Q♦, J♣ (Value: 20) | Chips: 1572
+CountingBot: 9♠, 8♦ (Value: 17) | Chips: 1673
+Dealer: 2♦, Hidden
+
+AccurateBot's turn:
+AccurateBot hits and receives 3♣. Hand: 5♥, 7♠, 3♣ (Value: 15)
+AccurateBot stands with 15 points.
+
+AggressiveBot's turn:
+AggressiveBot stands with 20 points.
+
+CountingBot's turn:
+CountingBot stands with 17 points.
+
+--- Current Game State ---
+AccurateBot: 5♥, 7♠, 3♣ (Value: 15) | Chips: 1477
+AggressiveBot: Q♦, J♣ (Value: 20) | Chips: 1572
+CountingBot: 9♠, 8♦ (Value: 17) | Chips: 1673
+Dealer: 2♦, Hidden
+--------------------------
+
+Dealer's turn:
+Dealer reveals hidden card: 6♠. Hand: 2♦, 6♠ (Value: 8)
+Dealer hits and receives 10♥. Hand: 2♦, 6♠, 10♥ (Value: 18)
+Dealer stands with 18 points.
+
+AccurateBot loses their bet of 38 chips.
+AggressiveBot wins! Receives 16 chips.
+CountingBot loses their bet of 99 chips.
+
+=== Game Over ===
+AccurateBot has 1439 chips.
+AggressiveBot has 1588 chips.
+CountingBot has 1574 chips.
